@@ -34,7 +34,7 @@ python gemini_image_generator.py "生成したい画像のプロンプト"
 python gemini_image_generator.py "翼のある豚が、緑豊かな未来的なSF都市の上空を飛んでいる3Dレンダリング画像"
 ```
 
-生成された画像は `output` ディレクトリに保存されます。
+生成された画像は `output` ディレクトリに4つ保存されます。
 
 #### 画像変換
 
@@ -49,6 +49,11 @@ python gemini_image_transform.py input.jpg "水彩画風"
 ```
 
 変換された画像は `output` ディレクトリに保存されます。
+
+## プロジェクトの構成
+
+*   `.clinerules`: プロジェクト固有のパターンや洞察を記録したファイルです。
+*   `memory-bank`: プロジェクトの設計、技術的な背景、進捗状況などを記録したドキュメントを格納するディレクトリです。
 
 ## ライセンス
 
