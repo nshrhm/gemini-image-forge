@@ -1,0 +1,19 @@
+# Project-Specific Patterns and Insights
+
+This file documents project-specific patterns and insights for the `gemini-image-forge` project.
+
+## Initial Observations
+
+*   This project uses the Gemini API to generate and transform images.
+*   The target audience is novice users interested in generative AI.
+*   The project includes two main scripts: `gemini_image_generator.py` and `gemini_image_transform.py`.
+*   The project uses the `gh` command-line tool for GitHub repository creation and management.
+
+## Tool Usage Patterns
+
+*   `write_to_file` is used to create initial project files such as `.gitignore`, `README.md`, and `LICENSE`.
+*   `execute_command` is used to run Git commands for repository initialization, file staging, commit, and push.
+
+## Known Challenges
+
+*   The initial push failed because the local branch name 'master' didn't match the remote branch name 'main'. This was resolved by renaming the local branch.
